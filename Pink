@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GiftHub - Student Profile</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Container for the student profile */
+        .profile-container {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+
+        /* Name background with pink color */
+        .name-background {
+            background-color: #ffc0cb; /* Pink background color */
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Student name styling */
+        .student-name {
+            font-size: 1.8em;
+            color: #333;
+            margin: 0;
+        }
+
+        /* Image container */
+        .image-container {
+            margin-top: 20px;
+        }
+
+        /* Student image */
+        .student-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <!-- Name with Pink Background -->
+        <div class="name-background">
+            <h1 class="student-name">Chayaporn Kiwthiang</h1>
+        </div>
+
+        <!-- Student Picture -->
+        <div class="image-container">
+            <img src="student-picture.jpg" alt="Chayaporn Kiwthiang" class="student-image">
+        </div>
+    </div>
+</body>
+</html>
